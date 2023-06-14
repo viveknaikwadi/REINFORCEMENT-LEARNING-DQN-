@@ -15,3 +15,9 @@ A reward is provided for every timestep that the pole remains upright. The episo
 the pole tips over some angle limit
 the cart moves outside of the world edges
 128 time steps pass.
+
+ DQN (Deep Q-Network) algorithm
+ 
+ It was able to solve a wide range of Atari games (some to superhuman level) by combining reinforcement learning and deep neural networks at scale. The algorithm was developed by enhancing a classic RL algorithm called Q-Learning with deep neural networks and a technique called experience replay.
+ 
+ 
