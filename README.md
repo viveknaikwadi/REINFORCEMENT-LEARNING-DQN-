@@ -16,6 +16,14 @@ the pole tips over some angle limit
 the cart moves outside of the world edges
 128 time steps pass.
 
+As the agent observes the current state of the environment and chooses
+an action, the environment *transitions* to a new state, and also
+returns a reward that indicates the consequences of the action. In this
+task, rewards are +1 for every incremental timestep and the environment
+terminates if the pole falls over too far or the cart moves more than 2.4
+units away from center. This means better performing scenarios will run
+for longer duration, accumulating larger return.
+
  DQN (Deep Q-Network) algorithm
  
  It was able to solve a wide range of Atari games (some to superhuman level) by combining reinforcement learning and deep neural networks at scale. The algorithm was developed by enhancing a classic RL algorithm called Q-Learning with deep neural networks and a technique called experience replay.
