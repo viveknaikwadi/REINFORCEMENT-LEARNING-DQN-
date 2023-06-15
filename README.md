@@ -28,4 +28,14 @@ for longer duration, accumulating larger return.
  
  It was able to solve a wide range of Atari games (some to superhuman level) by combining reinforcement learning and deep neural networks at scale. The algorithm was developed by enhancing a classic RL algorithm called Q-Learning with deep neural networks and a technique called experience replay.
  
+ Steps we follow to complete task:-
  
+1.First, we have define a set of hyperparameters we will be using for training.
+
+2.Next, we  focus on creating our environment, or simulator, using TorchRL’s wrappers and transforms.
+
+3. Next, we have design the policy network and the value model, which is indispensable to the loss function. These modules will be used to configure our loss module.
+
+4. Next, we created the replay buffer and data loader.
+
+5. Finally, we run our training loop and analyze the results.
